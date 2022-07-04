@@ -3,9 +3,9 @@
 <!-- ![Screenshot of the Loopstudios landing page](./design/desktop-preview.jpg) -->
 
 <div align="center">
-  <img src="./logo-html5.svg">
-  <img src="./logo-css3.svg">
-  <img src="./logo-javascript-img.svg">
+  <img src="./src/images/logo-html5.svg">
+  <img src="./src/images/logo-css3.svg">
+  <img src="./src/images/logo-javascript-img.svg">
 </div>
 
 ## Overview
