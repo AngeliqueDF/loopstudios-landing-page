@@ -1,59 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Loopstudios landing page</title>
+		<meta
+			name="description"
+			content="The homepage for a VR experience service. A frontend project to demonstate layout skills using CSS Grids and flexbox."
+		/>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  About
-  Careers
-  Events
-  Products
-  Support
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./src/images/favicon.svg"
+		/>
 
-  Immersive experiences that deliver
+		<title>Loopstudios landing page | Angélique D. Faye</title>
 
-  The leader in interactive VR
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+			rel="stylesheet"
+		/>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/style.css" />
+	</head>
+	<!-- <body class="mobile-menu-open"> -->
+	<!-- <header class="mobile-menu-open"> -->
+	<body>
+		<header>
+			<div>
+				<h1>
+					<a href="javascript:void()">
+						<img src="./src/images/logo.svg" alt="Loopstudios logo" />
+					</a>
+				</h1>
 
-  Our creations
+				<button id="mobile-menu-toggle" aria-label="Open mobile menu"></button>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="javascript:void()">About</a></li>
+					<li><a href="javascript:void()">Careers</a></li>
+					<li><a href="javascript:void()">Events</a></li>
+					<li><a href="javascript:void()">Products</a></li>
+					<li><a href="javascript:void()">Support</a></li>
+				</ul>
+			</nav>
+		</header>
 
-  See all
+		<main>
+			<section class="hero">
+				<h2>Immersive experiences that deliver</h2>
+			</section>
 
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
+			<section class="offer">
+				<img src="./src/images/mobile/image-interactive.jpg" alt="" />
+				<h2>The leader in interactive VR</h2>
+				<p>
+					Founded in 2011, Loopstudios has been producing world-class virtual
+					reality projects for some of the best companies around the globe. Our
+					award-winning creations have transformed businesses through digital
+					experiences that bind to their brand.
+				</p>
+			</section>
 
-  About
-  Careers
-  Events
-  Products
-  Support
+			<section class="creations">
+				<h2>Our creations</h2>
+				<button class="see-all">See all</button>
 
-  © 2021 Loopstudios. All rights reserved.
+				<div class="creations-list">
+					<ul>
+						<li>
+							<a href="javascript:void()">
+								<picture>
+									<source
+										srcset="./src/images/desktop/image-deep-earth.jpg"
+										media="(min-width: 1440px)"
+									/>
+									<img src="./src/images/mobile/image-deep-earth.jpg" alt="" />
+								</picture>
+								<span>Deep earth</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void()">
+								<picture>
+									<source
+										srcset="./src/images/desktop/image-night-arcade.jpg"
+										media="(min-width: 1440px)"
+									/>
+									<img
+										src="./src/images/mobile/image-night-arcade.jpg"
+										alt=""
+									/>
+								</picture>
+								<span>Night archade</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void()">
+								<picture>
+									<source
+										srcset="./src/images/desktop/image-soccer-team.jpg"
+										media="(min-width: 1440px)"
+									/>
+									<img src="./src/images/mobile/image-soccer-team.jpg" alt="" />
+								</picture>
+								<span>Soccer team VR</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void()">
+								<picture>
+									<source
+										srcset="./src/images/desktop/image-grid.jpg"
+										media="(min-width: 1440px)"
+									/>
+									<img src="./src/images/mobile/image-grid.jpg" alt="" />
+								</picture>
+								<span>The grid</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void()">
+								<picture>
+									<source
+										srcset="./src/images/desktop/image-from-above.jpg"
+										media="(min-width: 1440px)"
+									/>
+									<img src="./src/images/mobile/image-from-above.jpg" alt="" />
+								</picture>
+								<span>From up above VR</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void()">
+								<picture>
+									<source
+										srcset="./src/images/desktop/image-pocket-borealis.jpg"
+										media="(min-width: 1440px)"
+									/>
+									<img
+										src="./src/images/mobile/image-pocket-borealis.jpg"
+										alt=""
+									/>
+								</picture>
+								<span>Pocket borealis</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void()">
+								<picture>
+									<source
+										srcset="./src/images/desktop/image-curiosity.jpg"
+										media="(min-width: 1440px)"
+									/>
+									<img src="./src/images/mobile/image-curiosity.jpg" alt="" />
+								</picture>
+								<span>The curiosity</span>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:void()">
+								<picture>
+									<source
+										srcset="./src/images/desktop/image-fisheye.jpg"
+										media="(min-width: 1440px)"
+									/>
+									<img src="./src/images/mobile/image-fisheye.jpg" alt="" />
+								</picture>
+								<span>Make it fisheye</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+		<footer>
+			<a class="logo" href="javascript:void()">
+				<img src="./src/images/logo.svg" alt="Loopstudios logo" />
+			</a>
+
+			<ul class="sitemap">
+				<li>About</li>
+				<li>Careers</li>
+				<li>Events</li>
+				<li>Products</li>
+				<li>Support</li>
+			</ul>
+
+			<ul class="social-links">
+				<li>
+					<a href="javascript:void()"
+						><img src="./src/images/icon-facebook.svg" alt="Facebook logo"
+					/></a>
+				</li>
+
+				<li>
+					<a href="javascript:void()"
+						><img src="./src/images/icon-twitter.svg" alt="Twitter logo"
+					/></a>
+				</li>
+
+				<li>
+					<a href="javascript:void()"
+						><img src="./src/images/icon-pinterest.svg" alt="Pinterest logo"
+					/></a>
+				</li>
+
+				<li>
+					<a href="javascript:void()"
+						><img src="./src/images/icon-instagram.svg" alt="Instagram logo"
+					/></a>
+				</li>
+			</ul>
+
+			<small>© 2021 Loopstudios. All rights reserved.</small>
+		</footer>
+
+		<div class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="https://adf.dev">Angélique D. FAye</a>.
+		</div>
+	</body>
 </html>
