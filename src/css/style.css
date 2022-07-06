@@ -238,20 +238,14 @@ header.mobile-menu-open #mobile-menu-toggle {
 header.mobile-menu-open nav {
 	display: block;
 	width: 100%;
-	margin-block-start: 25%;
 	font-size: 2rem;
 }
 header.mobile-menu-open nav ul {
 	width: 100%;
 }
-header.mobile-menu-open nav li {
-	margin-bottom: 1.5rem;
-}
 header.mobile-menu-open nav a {
 	font-family: var(--font-josefin-sans);
 	text-transform: uppercase;
-	height: 1rem;
-	/* width: 1rem; */
 	padding: 1rem 1rem 1.4rem 0;
 	padding: 1.4rem;
 	text-decoration: none;
