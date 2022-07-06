@@ -288,7 +288,7 @@ footer {
 	margin-bottom: 3rem;
 }
 
-ul.social-links {
+.social-links {
 	display: flex;
 	justify-content: center;
 	justify-items: center;
