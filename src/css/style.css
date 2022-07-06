@@ -226,10 +226,10 @@ header.mobile-menu-open {
 	height: 100vh;
 	width: 100vw;
 	background-color: black;
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	align-items: center;
+	display: grid;
+	grid-template-rows: 5% 50%;
+	row-gap: 20%;
+	grid-template-columns: repeat(2, 1fr);
 }
 header.mobile-menu-open #mobile-menu-toggle {
 	background-image: url("./../images/icon-close.svg");
