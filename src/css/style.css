@@ -357,4 +357,34 @@ small {
 	}
 	/* End hero section */
 
+	/* About section */
+	.offer {
+		padding: 12% 6%;
+		position: relative;
+		text-align: unset;
+	}
+	.offer img {
+		max-width: 65%;
+		margin: unset;
+	}
+
+	.offer h2 {
+		font-size: 3.2rem;
+		margin-bottom: 1rem;
+	}
+
+	.offer .copy {
+		background-color: white;
+		padding: 8% 7% 12%;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		max-width: 35%;
+	}
+
+	.offer p {
+		font-size: 1.05rem;
+	}
+	/* End about section */
+
 }
