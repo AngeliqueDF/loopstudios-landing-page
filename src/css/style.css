@@ -74,6 +74,10 @@ header {
 	padding: 2.6rem 1.6rem 1.8rem;
 }
 
+header a {
+	display: inline-block;
+}
+
 
 button {
 	border: unset;
