@@ -130,7 +130,7 @@ button {
 }
 /* end Hero section */
 
-/* About section */
+/* Offer section */
 .offer {
 	text-align: center;
 	padding: 6rem 1.6rem;
@@ -150,7 +150,7 @@ button {
 	line-height: 2rem;
 	color: var(--very-dark-gray);
 }
-/* end About section */
+/* End offer section */
 
 /* Creations section */
 .creations {
@@ -357,7 +357,7 @@ small {
 	}
 	/* End hero section */
 
-	/* About section */
+	/* Offer section */
 	.offer {
 		padding: 12% 6%;
 		position: relative;
@@ -385,6 +385,6 @@ small {
 	.offer p {
 		font-size: 1.05rem;
 	}
-	/* End about section */
+	/* End offer section */
 
 }
