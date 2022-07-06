@@ -64,18 +64,23 @@ header * {
 header nav {
 	display: none;
 }
-header div {
+
+header {
 	box-sizing: border-box;
 	min-width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: start;
-	padding: 2.6rem 1.4rem 1.8rem;
+	padding: 2.6rem 1.6rem 1.8rem;
 }
 
-/* h1 {
-	padding-inline-start: 1rem;
-} */
+header a {
+	display: inline-block;
+}
+
+h1 a {
+	width: 75%;
+}
 
 button {
 	border: unset;
@@ -115,8 +120,6 @@ button {
 }
 
 .hero h2 {
-	/* font-size: 260%; */
-	/* font-size: 260vw; */
 	font-size: 11vw;
 	padding: 1.2rem 1rem;
 	border: 1px solid white;
@@ -181,12 +184,11 @@ button {
 	position: relative;
 }
 .creations-list a span {
-	font-size: 2rem;
-	max-width: 50%;
+	font-size: 1.4rem;
+	max-width: 40%;
 	font-family: var(--font-josefin-sans);
-
 	position: absolute;
-	bottom: 1rem;
+	bottom: 1.6rem;
 	left: 1rem;
 	text-transform: uppercase;
 	color: white;
@@ -220,14 +222,9 @@ body.mobile-menu-open {
 	overflow: hidden;
 }
 header.mobile-menu-open {
-	/* margin: auto 0; */
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
-	/* top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0; */
 	background-color: black;
 	display: flex;
 	flex-direction: column;
@@ -297,7 +294,7 @@ footer {
 	margin-bottom: 3rem;
 }
 
-ul.social-links {
+.social-links {
 	display: flex;
 	justify-content: center;
 	justify-items: center;
