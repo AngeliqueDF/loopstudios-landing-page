@@ -446,4 +446,48 @@ small {
 	}
 	/* End creations section */
 
+	/* Footer */
+	footer {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		padding: 3% 6% 2%;
+	}
+
+	footer .logo {
+		margin: unset;
+		width: 30%;
+	}
+	/* Sitemap */
+	/* Positions all elements in  the footer */
+	.sitemap,
+	.social-links,
+	footer small {
+		margin: unset;
+	}
+	.sitemap,
+	.social-links {
+		display: flex;
+		justify-content: space-between;
+	}
+	.sitemap {
+		grid-row-start: 2;
+		font-size: 1.5rem;
+		width: 80%;
+	}
+	/* end Sitemap */
+	/* Social links */
+	.social-links {
+		margin-inline-start: auto;
+		max-width: 30%;
+	}
+	/* end Social links */
+	/* Copyright */
+	small {
+		text-align: right;
+	}
+	/* end Copyright */
+	/* end Footer */
+
+	/* Utility */
 }
