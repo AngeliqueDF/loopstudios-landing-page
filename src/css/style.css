@@ -64,7 +64,8 @@ header * {
 header nav {
 	display: none;
 }
-header div {
+
+header {
 	box-sizing: border-box;
 	min-width: 100%;
 	display: flex;
