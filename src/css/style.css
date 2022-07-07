@@ -386,11 +386,13 @@ small {
 
 	.offer .copy {
 		background-color: white;
-		padding: 8% 7% 12%;
+		padding: 7% 6% 6%;
 		position: absolute;
-		bottom: 0;
-		right: 0;
+		bottom: 9%;
+		right: 3%;
 		max-width: 35%;
+		margin-right: 9%;
+		margin-bottom: 0.5%;
 	}
 
 	.offer p {
