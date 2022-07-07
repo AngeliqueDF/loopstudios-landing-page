@@ -45,17 +45,12 @@ header {
 	animation-duration: 2s;
 }
 
-img {
-	width: 100%;
-	height: auto;
-}
-
 /* end Layout */
 
 /* Header */
 header,
 header * {
-	color: white;
+	color: var(--white);
 }
 
 .hide {
