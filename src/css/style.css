@@ -78,6 +78,7 @@ header {
 
 header a {
 	display: inline-block;
+	text-decoration: none;
 }
 
 h1 a {
@@ -254,7 +255,6 @@ header.mobile-menu-open nav a {
 	font-family: var(--font-josefin-sans);
 	text-transform: uppercase;
 	padding: 1rem 1rem 1.4rem 0;
-	text-decoration: none;
 }
 /* end Utility */
 
@@ -333,8 +333,9 @@ small {
 		font-size: 1.2rem;
 	}
 
-	header nav a {
-		text-decoration: none;
+	header nav a,
+	.sitemap a {
+		padding: 1rem 0;
 	}
 
 	header nav ul {
