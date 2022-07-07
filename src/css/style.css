@@ -310,6 +310,11 @@ footer {
 	margin-inline-end: 1rem;
 }
 
+.social-links img {
+	height: 1.5rem;
+	width: 1.6rem;
+}
+
 small {
 	color: var(--dark-gray);
 }
@@ -499,6 +504,64 @@ small {
 	}
 	/* end Copyright */
 	/* end Footer */
+}
 
-	/* Utility */
+/* Hover compatible devices */
+@media (any-hover: hover) {
+	nav a:hover,
+	.sitemap a {
+		position: relative;
+	}
+
+	nav a:hover::after,
+	.sitemap a:hover::after {
+		display: block;
+		content: "";
+		background-color: var(--white);
+		position: absolute;
+		left: 0;
+		right: 0;
+		height: 3px;
+		width: 40%;
+		margin: 0.7rem auto 0;
+	}
+
+	.creations button:hover {
+		cursor: pointer;
+		background-color: var(--black);
+		color: var(--white);
+	}
+	.creations button:active {
+		color: var(--black);
+		background-color: var(--white);
+	}
+
+	.creations-list li:hover picture {
+		opacity: 0.3;
+	}
+	.creations-list li:active picture {
+		opacity: unset;
+	}
+	.creations-list li:hover span {
+		color: black;
+	}
+
+	.social-links a {
+		display: inline-block;
+		height: fit-content;
+		width: fit-content;
+	}
+
+	.sitemap a:active {
+		color: var(--black);
+		background-color: var(--white);
+	}
+
+	.sitemap a:active::after {
+		background-color: var(--white);
+	}
+
+}
+/* End hover compatible devices */
+
 }
