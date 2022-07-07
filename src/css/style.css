@@ -50,7 +50,7 @@ header {
 /* Header */
 header,
 header * {
-	color: white;
+	color: var(--white);
 }
 
 .hide {
