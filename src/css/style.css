@@ -169,6 +169,11 @@ button {
 .creations-list {
 	order: 2;
 }
+.creations-list li picture {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
 .creations button {
 	order: 3;
 }
@@ -436,7 +441,7 @@ small {
 		width: 100%;
 	}
 	.creations-list a span {
-		max-width: 80%;
+		max-width: 62%;
 		padding: 0 0 2rem 2rem;
 		font-size: 3rem;
 		bottom: 0;
