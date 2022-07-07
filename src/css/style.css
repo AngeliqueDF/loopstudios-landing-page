@@ -579,4 +579,23 @@ small {
 }
 /* End hover compatible devices */
 
+/* Touchscreens */
+@media (any-hover: none) {
+	nav a:active {
+		background-color: var(--white);
+		color: var(--black);
+	}
+
+	.creations button:active {
+		background-color: var(--black);
+		color: var(--white);
+	}
+
+	.creations-list li:active picture {
+		opacity: 0.3;
+	}
+	.creations-list li:active span {
+		color: black;
+	}
 }
+/* End touchscreens */
