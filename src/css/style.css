@@ -169,6 +169,11 @@ button {
 .creations-list {
 	order: 2;
 }
+.creations-list li picture {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
 .creations button {
 	order: 3;
 }
