@@ -561,6 +561,21 @@ small {
 		background-color: var(--white);
 	}
 
+	@media screen and (min-width: 1440px) {
+		nav a:hover::after,
+		.sitemap a:hover::after {
+			margin: 1rem auto 0;
+		}
+
+		.social-links a:hover::after {
+			display: block;
+			content: "";
+			height: 2px;
+			width: 100%;
+			background-color: var(--white);
+			margin-top: 0.5rem;
+		}
+	}
 }
 /* End hover compatible devices */
 
