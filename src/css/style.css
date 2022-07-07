@@ -73,10 +73,12 @@ header {
 	justify-content: space-between;
 	align-items: start;
 	padding: 2.6rem 1.6rem 1.8rem;
+	transition: 0.4s;
 }
 
 header a {
 	display: inline-block;
+	text-decoration: none;
 }
 
 h1 a {
@@ -228,7 +230,6 @@ body.mobile-menu-open {
 	overflow: hidden;
 }
 header.mobile-menu-open {
-	overflow: hidden;
 	position: absolute;
 	height: 100vh;
 	width: 100vw;
@@ -254,7 +255,6 @@ header.mobile-menu-open nav a {
 	font-family: var(--font-josefin-sans);
 	text-transform: uppercase;
 	padding: 1rem 1rem 1.4rem 0;
-	text-decoration: none;
 }
 /* end Utility */
 
@@ -333,8 +333,9 @@ small {
 		font-size: 1.2rem;
 	}
 
-	header nav a {
-		text-decoration: none;
+	header nav a,
+	.sitemap a {
+		padding: 1rem 0;
 	}
 
 	header nav ul {
