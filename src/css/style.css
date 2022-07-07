@@ -73,6 +73,7 @@ header {
 	justify-content: space-between;
 	align-items: start;
 	padding: 2.6rem 1.6rem 1.8rem;
+	transition: 0.4s;
 }
 
 header a {
