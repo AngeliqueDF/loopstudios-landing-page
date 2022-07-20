@@ -1,7 +1,6 @@
 import MobileMenu from "./MobileMenu";
 
 const mobileMenuToggler = MobileMenu("header");
-mobileMenuToggler.removeMobileMenu();
 
 window.addEventListener("resize", function () {
 	mobileMenuToggler.removeMobileMenu();
