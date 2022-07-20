@@ -1,6 +1,6 @@
 # Loopstudios landing page
 
-<!-- ![Screenshot of the Loopstudios landing page](./design/desktop-preview.jpg) -->
+![Screenshot of the Loopstudios landing page](./src/images/screenshot-loopstudios-landing-page-desktop.png)
 
 <div align="center">
   <img src="./src/images/logo-html5.svg">
@@ -11,8 +11,6 @@
 ## Overview
 
 _The homepage for a VR experience service!_
-
-[![Under Development](https://img.shields.io/badge/under-development-orange.svg)](https://github.com/)
 
 <br />
 
