@@ -1,6 +1,6 @@
 # Loopstudios landing page
 
-![Screenshot of the Loopstudios landing page](./src/images/screenshot-loopstudios-landing-page-desktop.png)
+![Screenshot of the Loopstudios landing page](./src/images/screenshot-loopstudios-landing-page-desktop-1.png)
 
 <div align="center">
   <img src="./src/images/logo-html5.svg">
@@ -31,6 +31,11 @@ _The homepage for a VR experience service!_
 5. visit `http://localhost:3000/`
 
 <br />
+
+<p align="center">
+<img src="./src/images/screenshot-loopstudios-landing-page-mobile-1.png" width="33%" />
+  <img src="./src/images/screenshot-loopstudios-landing-page-mobile-2.png" width="33%" /> 
+</p>
 
 ## Features
 
