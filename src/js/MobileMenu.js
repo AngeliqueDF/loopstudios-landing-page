@@ -1,5 +1,8 @@
 const MobileMenu = function (headerNavSelector) {
 	return {
+		/**
+		 * Toggles the mobile menu.
+		 */
 		toggleMenu: function () {
 			const headerNav = document.querySelector(headerNavSelector);
 			const body = document.querySelector("body");
@@ -7,7 +10,7 @@ const MobileMenu = function (headerNavSelector) {
 			body.classList.toggle("mobile-menu-open");
 		},
 		/**
-		 * Removes the .mobile-menu-open class from header and body. Used when the screen width is above 1440px.
+		 * Removes the ".mobile-menu-open" class from header and body if the screen width is above 1440px.
 		 */
 		removeMobileMenu: function () {
 			if (window.innerWidth >= 1440) {
