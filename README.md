@@ -19,7 +19,7 @@ _The homepage for a VR experience service!_
 ## Links
 
 <p>
-<a href="https://github.com/AngeliqueDF/loopstudios-landing-page">GitHub repo</a> • <a href="https://github.com/AngeliqueDF">Live demo </a>
+<a href="https://github.com/AngeliqueDF/loopstudios-landing-page">GitHub repo</a> • <a href="https://loopstudios-landing-page-alpha-ten.vercel.app/">Live demo </a>
 </p>
 
 <br />
